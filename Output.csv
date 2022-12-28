@@ -1,0 +1,107 @@
+,Type,Literal,Row,Col,Block No.
+0,identifier,include,1,1,0
+1,relational operator,<,1,8,0
+2,identifier,stdio,1,9,0
+3,dot,.,1,14,0
+4,identifier,h,1,15,0
+5,relational operator,>,1,16,0
+6,keyword,int,2,1,0
+7,identifier,main,2,5,0
+8,left parentheses,(,2,9,0
+9,right parentheses,),2,10,0
+10,left curly-brace,{,3,1,1
+11,keyword,int,4,5,1
+12,identifier,arr,4,9,1
+13,left bracket,[,4,12,1
+14,integer,100,4,13,1
+15,right bracket,],4,16,1
+16,comma,",",4,17,1
+17,identifier,size,4,19,1
+18,comma,",",4,23,1
+19,identifier,i,4,25,1
+20,comma,",",4,26,1
+21,identifier,sum,4,28,1
+22,operator,=,4,32,1
+23,integer,0,4,34,1
+24,semi-colon,;,4,35,1
+25,identifier,printf,5,5,1
+26,left parentheses,(,5,11,1
+27,string,"""Enter array size""",5,12,1
+28,right parentheses,),5,29,1
+29,semi-colon,;,5,30,1
+30,identifier,scanf,6,5,1
+31,left parentheses,(,6,10,1
+32,string,"""%d""",6,11,1
+33,comma,",",6,14,1
+34,ampersand,&,6,15,1
+35,identifier,size,6,16,1
+36,right parentheses,),6,20,1
+37,semi-colon,;,6,21,1
+38,identifier,printf,8,5,1
+39,left parentheses,(,8,11,1
+40,string,"""Enter array elements""",8,12,1
+41,right parentheses,),8,33,1
+42,semi-colon,;,8,34,1
+43,keyword,for,9,5,1
+44,left parentheses,(,9,8,1
+45,identifier,i,9,9,1
+46,operator,=,9,11,1
+47,integer,0,9,13,1
+48,semi-colon,;,9,14,1
+49,identifier,i,9,16,1
+50,relational operator,<,9,18,1
+51,identifier,size,9,20,1
+52,semi-colon,;,9,24,1
+53,identifier,i,9,26,1
+54,operator,++,9,27,1
+55,right parentheses,),9,29,1
+56,identifier,scanf,10,9,1
+57,left parentheses,(,10,14,1
+58,string,"""%d""",10,15,1
+59,comma,",",10,18,1
+60,ampersand,&,10,19,1
+61,identifier,arr,10,20,1
+62,left bracket,[,10,23,1
+63,identifier,i,10,24,1
+64,right bracket,],10,25,1
+65,right parentheses,),10,26,1
+66,semi-colon,;,10,27,1
+67,keyword,for,12,5,1
+68,left parentheses,(,12,8,1
+69,identifier,i,12,9,1
+70,operator,=,12,11,1
+71,integer,0,12,13,1
+72,semi-colon,;,12,14,1
+73,identifier,i,12,16,1
+74,relational operator,<,12,18,1
+75,identifier,size,12,20,1
+76,semi-colon,;,12,24,1
+77,identifier,i,12,26,1
+78,operator,++,12,27,1
+79,right parentheses,),12,29,1
+80,identifier,sum,13,9,1
+81,operator,=,13,13,1
+82,identifier,sum,13,15,1
+83,operator,+,13,19,1
+84,identifier,arr,13,21,1
+85,left bracket,[,13,24,1
+86,identifier,i,13,25,1
+87,right bracket,],13,26,1
+88,semi-colon,;,13,27,1
+89,operator,+=,13,29,1
+90,identifier,arr,13,32,1
+91,left bracket,[,13,35,1
+92,identifier,i,13,36,1
+93,right bracket,],13,37,1
+94,semi-colon,;,13,38,1
+95,identifier,printf,15,5,1
+96,left parentheses,(,15,11,1
+97,string,"""Sum of the array = %d""",15,12,1
+98,comma,",",15,34,1
+99,identifier,sum,15,35,1
+100,right parentheses,),15,38,1
+101,semi-colon,;,15,39,1
+102,keyword,return,16,5,1
+103,integer,0,16,12,1
+104,semi-colon,;,16,13,1
+105,right curly-brace,},17,1,0
